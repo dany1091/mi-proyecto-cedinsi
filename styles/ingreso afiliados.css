@@ -1,0 +1,25 @@
+form{
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    width: 30%;
+    text-align: center;
+}
+
+form>img{
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+form>input{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border-color: aqua;
+    border-top-style: none;
+}
+
+form>input:focus{
+    outline: none;
+}

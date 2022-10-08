@@ -1,0 +1,25 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 20px;
+    background-image: url("../image/panama.jpg");
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+th,td{
+    border-style: ridge;
+    padding:15px;
+}
+
+tr>th{
+    background-color: rgb(27, 159, 161);
+}
+
+tbody>tr:hover{
+    background-color: aquamarine;
+}
